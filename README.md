@@ -3,4 +3,4 @@
 
 TYPE | DESCRIPTION | CPU | MM | ROLE | ENV
 -----| ------------|-----|----|------|----
-ABCD   EFGHIJKLMNO  PQRS  TUV   WXY    DEV
+ABCD | EFGHIJKLMNO | PQRS| TU | VWXY | DEV
