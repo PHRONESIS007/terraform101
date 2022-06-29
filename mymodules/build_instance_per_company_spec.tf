@@ -7,6 +7,7 @@ resource "aws_instance" "machine" {
   user_data         = file("${element(var.modulescripts, count.index)}")
   tags = {
     Name = var.node_name[count.index]
+    environment = var.environment
   }
 }
 
